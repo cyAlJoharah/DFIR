@@ -3,7 +3,7 @@
 ## Cases
 **Case 01 - Proxy Analysis**
 
-Triage of Blue Coat proxy logs to investigate suspected phishing and account compromise for user Fahad3315. Findings were circumstantial and inconclusive on compromise, highlighting the evidentiary gap between proxy telemetry and the claimed email-based attack.
+Triage of Blue Coat proxy logs to investigate suspected phishing and account compromise for user `Fahad3315`. Findings were circumstantial and inconclusive on compromise, highlighting the evidentiary gap between proxy telemetry and the claimed email-based attack.
 
 * **[Report](./01_Proxy_Analysis_Report.pdf)**
   * **[Raw Logs (CSV)](./01_Proxy_Analysis_Evidence.csv)**
