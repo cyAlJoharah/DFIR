@@ -30,7 +30,7 @@ are drawn from.
 
 ## Cases
 
-**Case 01 — Proxy Analysis**
+## **Case 01 — Proxy Analysis**
 
 Triage of Blue Coat proxy logs to investigate suspected phishing and account 
 compromise for user `Fahad3315`.
@@ -43,6 +43,17 @@ evidentiary gap between proxy telemetry and the claimed email-based attack.
 * [Report](./01_Proxy_Analysis_Report.pdf)
 * [Raw Logs (CSV)](./01_Proxy_Analysis_Evidence.csv)
 
+
+## **Case 02 — Phishing & Macro Analysis**
+
+Forensic deconstruction of a carrier email (`.msg`) and macro-enabled attachments (`.xlsm`) to investigate an internal spear-phishing simulation. 
+
+Findings conclusively identified an authorized internal simulation: low-level MAPI property interrogation verified direct internal MAPI/RPC store delivery (`PR_TRANSPORT_MESSAGE_HEADERS = None`), while cross-sample VBA reverse engineering confirmed an educational, non-destructive payload.
+
+**Tools:** `oledump.py`, `extract-msg`, `binwalk`, `strings`
+
+* [Report](./02_Phishing_and_Macro_Analysis_Report.pdf)
+* [Analyzed Samples (ZIP, Password: infected)](./02_Phishing_and_Macro_Evidence/)
 
 
 ## Contact
