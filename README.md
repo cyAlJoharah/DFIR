@@ -50,7 +50,7 @@ Verification of reported claims regarding a high-privileged account compromise a
 
 **Tools:** `oledump.py`, `extract-msg`, `binwalk`, `strings`
 
-* [Report](./02_Phishing_and_Macro_Analysis_Report.pdf)
+* [Report](./DFIR_Report_Account_Compromise_Claim.pdf)
 
 
 
