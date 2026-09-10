@@ -52,7 +52,7 @@ Verification of reported claims regarding a high-privileged account compromise a
 
 * [Report](./DFIR_Report_Account_Compromise_Claim.pdf)
 
-
+**Note**: To access the analysis evidence, please download the PDF first, then click the link in Section 6.
 
 ## Contact
 
